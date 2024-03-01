@@ -8,7 +8,7 @@ function Movie(props) {
     } = props;
 
 
-    return <div id={id} className="card">
+    return <div id={id} className="card movie">
                 <div className="card-image waves-effect waves-block waves-light">
                     {
                         poster === 'N/A' ?
@@ -23,7 +23,5 @@ function Movie(props) {
                 <span className="right">{type}</span>
             </div>
 }
-
-console.log(Movie)
 
 export {Movie}

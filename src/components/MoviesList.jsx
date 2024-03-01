@@ -2,7 +2,6 @@ import {Movie} from './Movie';
 
 function MoviesList(props) {
     const {movies = []} = props;
-    console.log(Movie)
 
     return <div className='movies'>
         {movies.length ? movies.map(movie => (
